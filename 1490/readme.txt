@@ -1,8 +1,5 @@
-��A Knight's Journey
+A Knight's Journey
 
-;`�e��P�6R: 1000ms �QX[P�6R: 65536kB
-
-�c��
 
 全局题号 1490
 
@@ -18,17 +15,17 @@ Problem
 
 Find a path such that the knight visits every square once. The knight can start and end on any square of the board.
 
-��eQ
+Input
 
 The input begins with a positive integer n in the first line. The following lines contain n test cases. Each test case consists of a single line with two positive integers p and q, such that 1 <= p * q <= 26. This represents a p * q chessboard, where p describes how many different square numbers 1, . . . , p exist, q describes how many different square letters exist. These are the first q letters of the Latin alphabet: A, . . .
 
-���Q
+Output
 
 The output for every scenario begins with a line containing "Scenario #i:", where i is the number of the scenario starting at 1. Then print a single line containing the lexicographically first path that visits all squares of the chessboard with knight moves followed by an empty line. The path should be given on a single line by concatenating the names of the visited squares. Each square name consists of a capital letter followed by a number.
 
 If no such path exist, you should output impossible on a single line.
 
-7h�O��eQ
+样例输入
 
 3
 
@@ -38,7 +35,7 @@ If no such path exist, you should output impossible on a single line.
 
 4 3
 
-7h�O���Q
+样例输出
 
 Scenario #1:
 
@@ -56,6 +53,6 @@ Scenario #3:
 
 A1B3C1A2B4C2A3B1C3A4B2C4
 
-eg�n
+题目来源
 
 TUD Programming Contest 2005, Darmstadt, Germany
