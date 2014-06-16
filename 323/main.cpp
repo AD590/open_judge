@@ -3,6 +3,7 @@
 
 using namespace std;
 
+
 int fun(bool* board, int n,int k){
 	int result = 0;
 	if(k==1){
@@ -24,9 +25,11 @@ int fun(bool* board, int n,int k){
 				result += fun(sub_board, n, k-1);
 			}
 		}
+
 	}
 	return result;
 }
+
 
 
 int main(){
